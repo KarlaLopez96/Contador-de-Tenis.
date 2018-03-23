@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_jugador_1"
+                android:textColor="#000"
+                android:gravity="center"
+                android:layout_weight="1.5"/>
+
+            <TextView
+                android:id="@+id/text1"
+                android:textSize="42dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:layout_weight="2.5"
+                android:text="@string/text_contador"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/contar1"
+                android:background="#f4511e"
+                android:text="@string/text_punto1"
+                android:layout_weight="0"
+                android:onClick="agregarpuntos1"
+                android:textColor="#ffff"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:textSize="24dp"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_nombreSet_1"/>
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+                    android:textSize="24dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_contador_1"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:background="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.98"/>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="left"
+        android:background="#ffffcc"
+        android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_jugador_2"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    android:layout_weight="1.5"/>
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:textSize="42dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#000"
+                    android:layout_weight="2.5"
+                    android:text="@string/text_contador_2"
+                    android:gravity="center"/>
+
+                <Button
+                    android:id="@+id/contar2"
+                    android:background="#f4511e"
+                    android:text="@string/text_punto2"
+                    android:layout_weight="0"
+                    android:onClick="agregarpuntos2"
+                    android:textColor="#ffff"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_weight="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:textColor="#000"
+                        android:textSize="24dp"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_nombreSet_2"/>
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:textColor="#000"
+                        android:textSize="24dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_contador_4"/>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reset"
+        android:text="@string/text_reset"
+        android:background="#283593"
+        android:layout_weight="6"
+        android:onClick="reset"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

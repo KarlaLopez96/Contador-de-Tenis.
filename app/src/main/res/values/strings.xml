@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CONTADOR DE TENIS</string>
+    <string name="text_jugador_1">JUGADOR 1</string>
+    <string name="text_nombreSet_1">SET\'s :</string>
+    <string name="text_contador">0</string>
+    <string name="text_contador_1">0</string>
+    <string name="text_jugador_2">JUGADOR 2</string>
+    <string name="text_contador_2">0</string>
+    <string name="text_nombreSet_2">SET\'s :</string>
+    <string name="text_contador_4">0</string>
+    <string name="text_reset">reset</string>
+    <string name="text_punto1">point</string>
+    <string name="text_punto2">point</string>
+</resources>
